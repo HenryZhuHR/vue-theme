@@ -6,7 +6,7 @@
 
 ```sh
 theme
-    ├── global-components //该目录下的组件都会被自动注册为全局组件
+    ├── global-components // 该目录下的组件都会被自动注册为全局组件
     │   └── xxx.vue
     ├── components        // Vue 组件
     │   └── xxx.vue
@@ -18,4 +18,16 @@ theme
     │   └── palette.styl
     ├── index.js         // 主题文件的入口文件
     └── enhanceApp.js    // 主题水平的客户端增强文件
+```
+
+## 本地主题
+
+首先，创建本地主题目录，一般是 `.vuepress/theme` ：
+```sh
+└─ docs
+   ├─ .vuepress
+   │  ├─ theme
+   │  │  └─ index.js
+   │  └─ config.js
+   └─ README.md
 ```
